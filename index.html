@@ -87,7 +87,7 @@
     position: absolute; inset: 0;
     background:
       linear-gradient(160deg, rgba(0,102,111,0.35) 0%, rgba(10,22,40,0.7) 50%, rgba(10,22,40,0.95) 100%),
-      url('https://images.unsplash.com/photo-1565043666747-69f6646db940?w=1800&q=80') center/cover no-repeat;
+      url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1800&q=80') center/cover no-repeat;
   }
   /* Blueprint grid overlay */
   .hero-bg::after {
@@ -633,7 +633,7 @@
   </div>
   <div class="projects-grid">
     <div class="project-card reveal">
-      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80" alt="Arctic Nexus">
+      <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=900&q=80" alt="Arctic Nexus">
       <div class="project-overlay"></div>
       <div class="project-info">
         <span class="project-chip">Endüstriyel Soğutma</span>
@@ -649,7 +649,7 @@
       </div>
     </div>
     <div class="project-card reveal">
-      <img src="https://images.unsplash.com/photo-1565043666747-69f6646db940?w=900&q=80" alt="Vanguard Tekstil">
+      <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=900&q=80" alt="Vanguard Tekstil">
       <div class="project-overlay"></div>
       <div class="project-info">
         <span class="project-chip">Proses Havalandırma</span>
@@ -657,7 +657,7 @@
       </div>
     </div>
     <div class="project-card reveal">
-      <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80" alt="Horizon Biyoteknoloji">
+      <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80" alt="Horizon Biyoteknoloji">
       <div class="project-overlay"></div>
       <div class="project-info">
         <span class="project-chip">Temiz Oda Sistemi</span>
@@ -731,7 +731,7 @@
       <h4>İletişim Noktası</h4>
       <p>Sanayi Yolu 88, Mühendislik Plaza<br>İstanbul, Türkiye 34510</p>
       <p><a href="tel:+902121234567">+90 (212) 765 0121</a></p>
-      <p><a href="mailto:tasarim@mekanikvizyon.com">tasarim@mekanikvizyon.com</a></p>
+      <p><a href="/cdn-cgi/l/email-protection#d6a2b7a5b7a4bfbb96bbb3bdb7b8bfbda0bfacafb9b8f8b5b9bb"><span class="__cf_email__" data-cfemail="fc889d8f9d8e9591bc9199979d9295978a9586859392d29f9391">[email&#160;protected]</span></a></p>
     </div>
   </div>
   <div class="footer-bottom">
@@ -744,18 +744,8 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   // Scroll reveal
   const reveals = document.querySelectorAll('.reveal');
   const io = new IntersectionObserver((entries) => {
-    entries.forEach((entry, i) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), 80);
-        io.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1 });
-  reveals.forEach(el => io.observe(el));
-</script>
-</body>
-</html>
+    entries.forEach((entry, i
